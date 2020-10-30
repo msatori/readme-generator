@@ -5,6 +5,15 @@ const fs = require('fs');
 const questions = [
 
 ];
+// const printProfileData = profileDataArr => {
+//    for (let i = 0; i < profileDataArr.length; i += 1) {
+//        console.log(profileDataArr[i]);
+//    };
+
+//    console.log('================');
+
+//    profileDataArr.forEach(profileItem =>console.log(profileItem));
+// }
 //use inquirer to prompt questions for readme requirements
 inquirer
 .prompt {[
