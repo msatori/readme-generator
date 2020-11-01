@@ -12,8 +12,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'projectName',
-        message: 'What is the name of your project?'
+        name: 'title',
+        message: 'What is the title of your project?'
     },
     {
         type: 'input',
@@ -31,12 +31,14 @@ const questions = [
         message: 'Give a brief description on the intended usage for this project'
     },
     {
-        type: "input",
-        name: 'credits',
-        message: 'Please add any contributers'
+        type: "confirm",
+        name: 'confirmCredits',
+        message: 'Would you like to add a section to credit and contributers?'
     },
     {
-        type: ''
+        type: 'input',
+        name: 'credits',
+        message: 'Please list any contributers here'
     }
 
 

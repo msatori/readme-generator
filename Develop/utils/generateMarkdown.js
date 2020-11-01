@@ -1,3 +1,21 @@
+//create function for generating licenses
+  //iterate through chosen license 
+
+//create conditional if user wants to create credit section then generate area
+
+const generateCredits = creditData => {
+  if(!creditData) {
+    return (''),
+  }
+
+  return `
+  ##CREDITS
+  ${
+    questions.creditsS
+  }
+  `
+};
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -16,12 +34,11 @@ function generateMarkdown(data) {
 
 
     ## Installation
-
+      ${questions.installation}
 
     ## Usage 
+      ${questions.usage}
 
-
-    ## Credits
 
 
     ## License
