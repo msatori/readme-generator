@@ -1,7 +1,8 @@
 //install inquirer and fs
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const path = require('path');
+const generateMarkdown = require('/utils/generateMarkdown');
 
 // array of questions for user
 const questions = [
@@ -41,8 +42,6 @@ const questions = [
         message: 'Please list any contributers here'
     }
 
-
-
 ];
 
 
@@ -50,24 +49,17 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-   return fs.writeFile(fileName, data, (err) => {
-    if (err) throw err 
-
-    console.log('your readme has been generated!')
-   })
-
-};
-
+   return fs.writeFile(path.join(process.cwd(), fileName), data) 
+}
 // function to initialize program
 function init() {
 //use inquirer to prompt questions for readme requirements ?????????
 inquirer.prompt (questions).then((answers) => {
-    console.log(answers.githubUsername)
-    let readme = `My github username is ${answers.githubUsername}`;
-    writeToFile('./README.md', generateMarkdown,  readme);
+    console.log("Your README has been generated!");
+    writeToFile('./README.md', generateMarkdown({...answers}));
 
-});
-};
+})
+}
 
 // function call to initialize program
 init();

@@ -5,7 +5,7 @@
 
 const generateCredits = creditData => {
   if(!creditData) {
-    return (''),
+    return ('');
   }
 
   return `
@@ -39,7 +39,8 @@ function generateMarkdown(data) {
     ## Usage 
       ${questions.usage}
 
-
+    //insert function for credits
+      ${generateCredits(credits)}
 
     ## License
 
