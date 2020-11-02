@@ -19,7 +19,7 @@ Having a detailed, well organized readme is crucial for all project. This app is
 ## Usage 
 Use this app any time that you need to write a readme. 
 
-[![Application Demo](./demo.png)]({https://drive.google.com/file/d/1BlcXOdyBNVIZLLolrmbR6ubCzD-nPHG8/view} "App Demo")
+[![Application Demo](./demo.png)](https://drive.google.com/file/d/1BlcXOdyBNVIZLLolrmbR6ubCzD-nPHG8/view "App Demo")
 ## CREDITS
 
 
