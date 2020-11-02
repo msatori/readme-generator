@@ -11,13 +11,13 @@ const generateCredits = creditData => {
   return `
   ##CREDITS
   ${
-    questions.creditsS
+    data.credits
   }
   `
 };
 
 // function to generate markdown for README
-function generateMarkdown(data) {
+const generateMarkdown = data => {
   return `# ${data.title}
 
     ## Description 
@@ -34,13 +34,13 @@ function generateMarkdown(data) {
 
 
     ## Installation
-      ${questions.installation}
+      ${data.installation}
 
     ## Usage 
-      ${questions.usage}
+      ${data.usage}
 
     //insert function for credits
-      ${generateCredits(credits)}
+      ${generateCredits(data.credits)}
 
     ## License
 
