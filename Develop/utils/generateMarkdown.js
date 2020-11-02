@@ -14,40 +14,40 @@ const generateCredits = creditData => {
 // function to generate markdown for README
 const generateMarkdown = data => {
   return `
-    # ${data.title} [![License](https://img.shields.io.badge/license-${data.license}-blue.svg)]
+  # ${data.title} [![License](https://img.shields.io.badge/license-${data.license}-blue.svg)]
 
-    ## Description 
+  ## Description 
 
-    ${data.description}
-
-
-    ## Table of Contents (Optional)
-
-      * [Installation](#installation)
-      * [Usage](#usage)
-      * [Credits](#credits)
-      * [License](#license)
+  ${data.description}
 
 
-    ## Installation
-      ${data.installation}
+  ## Table of Contents (Optional)
 
-    ## Usage 
-      ${data.usage}
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Credits](#credits)
+    * [License](#license)
 
-    ##CREDITS
-      ${generateCredits()}
 
-    ## License
-    ${data.license} [![License](https://img.shields.io.badge/license-${data.license}-blue.svg)]
+  ## Installation
+    ${data.installation}
 
-    ## Contributing
-      ${data.contribute}
-    ## Tests
-      ${data.tests}
+  ## Usage 
+    ${data.usage}
 
-    #Contact Me
-      Feel free to contact me if you have any questions about this project. I can be reached by email at ${data.email}
+  ## CREDITS
+    ${generateCredits()}
+
+  ## License
+  ${data.license} [![License](https://img.shields.io.badge/license-${data.license}-blue.svg)]
+
+  ## Contributing
+    ${data.contribute}
+  ## Tests
+    ${data.tests}
+
+  # Contact Me
+    Feel free to contact me if you have any questions about this project. I can be reached by email at ${data.email}
 
 `;
 }
