@@ -1,36 +1,36 @@
-  # readme-generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# readme-generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## Description 
+## Description 
 
-  Having a detailed, well organized readme is crucial for all project. This app is meant to save you time and ensure that you produce a consistently laid out readme. 
-
-
-  ## Table of Contents (Optional)
-
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
+Having a detailed, well organized readme is crucial for all project. This app is meant to save you time and ensure that you produce a consistently laid out readme. 
 
 
-  ## Installation
-      npm i inquirer
+## Table of Contents (Optional)
 
-  ## Usage 
-      Use this app any time that you need to write a readme. 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-      <iframe src="https://drive.google.com/file/d/1BlcXOdyBNVIZLLolrmbR6ubCzD-nPHG8/preview" width="640" height="480"></iframe>
 
-  ## CREDITS
-      
+## Installation
+    npm i inquirer
 
-  ## License
-    MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Usage 
+Use this app any time that you need to write a readme. 
 
-   ## Contributing
-      
-  ## Tests
-      npm tests
+<iframe src="https://drive.google.com/file/d/1BlcXOdyBNVIZLLolrmbR6ubCzD-nPHG8/preview" width="640" height="480"></iframe>
 
-  # Contact Me
-      Feel free to contact me if you have any questions about this project. I can be reached by email at msatori.code@gmail.com
+## CREDITS
+
+
+## License
+MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Contributing
+
+## Tests
+npm tests
+
+# Contact Me
+Feel free to contact me if you have any questions about this project. I can be reached by email at msatori.code@gmail.com
