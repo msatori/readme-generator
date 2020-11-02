@@ -73,11 +73,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contribute',
-        message: 'Please detail future contributions that you would appreciate'
-    },
-    {
-        type: 'input',
         name: 'tests',
         message: 'How would someone run tests on this app?'
     },

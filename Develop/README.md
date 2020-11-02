@@ -1,9 +1,9 @@
 
-    # jimjohns big project [![License](https://img.shields.io.badge/license-BSD 2-blue.svg)]
+    # readme-generator [![License](https://img.shields.io.badge/license-MIT-blue.svg)]
 
     ## Description 
 
-    its absolutley amazing
+    Having a detailed, well organized readme is crucial for all project. This app is meant to save you time and ensure that you produce a consistently laid out readme. 
 
 
     ## Table of Contents (Optional)
@@ -18,19 +18,18 @@
       npm i inquirer
 
     ## Usage 
-      use it if you are awesome
+      Use this app any time that you need to write a readme. 
 
     ##CREDITS
       
 
     ## License
-    BSD 2 [![License](https://img.shields.io.badge/license-BSD 2-blue.svg)]
+    MIT [![License](https://img.shields.io.badge/license-MIT-blue.svg)]
 
-    ## Contributing
-      well thats a good question
+      
     ## Tests
-      npm tests i think
+      npm tests
 
     #Contact Me
-      Feel free to contact me if you have any questions about this project. I can be reached by email at jimjon@jimjon.com
+      Feel free to contact me if you have any questions about this project. I can be reached by email at msatori.code@gmail.com
 
