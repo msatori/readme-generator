@@ -3,8 +3,8 @@
 
 //create conditional if user wants to create credit section then generate area
 
-const generateCredits = creditData => {
-  if(!creditData) {
+const generateCredits = data => {
+  if(!data.credits) {
     return ('');
   }
 
@@ -18,7 +18,8 @@ const generateCredits = creditData => {
 
 // function to generate markdown for README
 const generateMarkdown = data => {
-  return `# ${data.title}
+  return `
+    # ${data.title}
 
     ## Description 
 

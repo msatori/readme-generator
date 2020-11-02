@@ -48,26 +48,21 @@ const questions = [
 
 
 // function to write README file
-const writeToFile= data => {
-   return fs.writeFile('./README.md', data, err => {
-   if (err) throw err
-
-   else {
-       console.log("Your readme has been genrated!");
-   }
-})
+function writeToFile(data){
+    return fs.writeFile('README.md', data, err => {
+        if (err) throw new err 
+    });
 }
 
 
 // function to initialize program
 const init = () => {
-//use inquirer to prompt questions for readme requirements ?????????
-inquirer.prompt (questions).then((answers) => {
-    console.log("Your README has been generated!");
-    writeToFile('README.md', generateMarkdown({...answers}));
-
-})
-}
+    //use inquirer to prompt questions for readme requirements ?????????
+    inquirer.prompt(questions).then((answers) => {
+        console.log("Your README has been generated!");
+        writeToFile(generateMarkdown({...answers}));
+    })
+};
 
 // function call to initialize program
 init();
