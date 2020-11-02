@@ -9,17 +9,41 @@ const questions = [
     {
         type: 'input',
         name: 'githubUsername',
-        message: 'What is your GitHub username?'
+        message: 'What is your GitHub username?',
+        validate: userInput => {
+            if (userInput) {
+                return true
+            } else {
+                console.log('Please enter your Github username!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of your project?'
+        message: 'What is the title of your project?',
+        validate: titleInput => {
+            if (titleInput) {
+                return true
+            } else {
+                console.log('Please enter your project title!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Please give a detailed description of your project. (Required)'
+        message: 'Please give a detailed description of your project. (Required)',
+        validate: descInput => {
+            if (descInput) {
+                return true
+            } else {
+                console.log('Please enter a description for your project!');
+                return false 
+            }
+        }
     },
     {
         type: 'input',
@@ -39,13 +63,14 @@ const questions = [
     {
         type: 'input',
         name: 'credits',
-        message: 'Please list any contributers here'
+        message: 'Please list any contributers here',
+        when: ({confirmCredits}) => confirmCredits
     },
     {
         type: 'list',
         name: 'license',
         message: 'What license would you like to apply to your project?',
-        choices: ['APACHE-2.0', 'MIT', 'BSD 2', 'BSD 3' , 'None']
+        choices: ['APACHE-2.0', 'MIT', 'BSD 2', 'BSD 3', 'None']
     },
     {
         type: 'input',
@@ -64,9 +89,9 @@ const questions = [
 
 
 // function to write README file
-function writeToFile(data){
+function writeToFile(data) {
     return fs.writeFile('README.md', data, err => {
-        if (err) throw new err 
+        if (err) throw new err
     });
 }
 
@@ -76,7 +101,7 @@ const init = () => {
     //use inquirer to prompt questions for readme requirements ?????????
     inquirer.prompt(questions).then((answers) => {
         console.log("Your README has been generated!");
-        writeToFile(generateMarkdown({...answers}));
+        writeToFile(generateMarkdown({ ...answers }));
     })
 };
 

@@ -1,18 +1,15 @@
-//create function for generating licenses
-  //iterate through chosen license 
+
 
 //create conditional if user wants to create credit section then generate area
 
-const generateCredits = data => {
-  if(!data.credits) {
+const generateCredits = creditData => {
+  if(!creditData) {
     return ('');
   }
 
   return `
   ##CREDITS
-  ${
-    data.credits
-  }
+  ${creditData.credits}
   `
 };
 
@@ -40,8 +37,8 @@ const generateMarkdown = data => {
     ## Usage 
       ${data.usage}
 
-    //insert function for credits
-      ${generateCredits(data.credits)}
+
+      ${generateCredits()}
 
     ## License
     ${data.license}
