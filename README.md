@@ -1,36 +1,36 @@
-  # readme-generator [![License](https://img.shields.io.badge/license-MIT-blue.svg)]
+  # readme-generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    ## Description 
+  ## Description 
 
-    Having a detailed, well organized readme is crucial for all project. This app is meant to save you time and ensure that you produce a consistently laid out readme. 
-
-
-    ## Table of Contents (Optional)
-
-      * [Installation](#installation)
-      * [Usage](#usage)
-      * [Credits](#credits)
-      * [License](#license)
+  Having a detailed, well organized readme is crucial for all project. This app is meant to save you time and ensure that you produce a consistently laid out readme. 
 
 
-    ## Installation
+  ## Table of Contents (Optional)
+
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Credits](#credits)
+    * [License](#license)
+
+
+  ## Installation
       npm i inquirer
 
-    ## Usage 
+  ## Usage 
       Use this app any time that you need to write a readme. 
 
       <iframe src="https://drive.google.com/file/d/1BlcXOdyBNVIZLLolrmbR6ubCzD-nPHG8/preview" width="640" height="480"></iframe>
 
-    ##CREDITS
+  ## CREDITS
       
 
-    ## License
-    MIT [![License](https://img.shields.io.badge/license-MIT-blue.svg)]
+  ## License
+    MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    ## Contributing
+   ## Contributing
       
-    ## Tests
+  ## Tests
       npm tests
 
-    #Contact Me
+  # Contact Me
       Feel free to contact me if you have any questions about this project. I can be reached by email at msatori.code@gmail.com
