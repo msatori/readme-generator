@@ -1,9 +1,9 @@
 
-    # dsljfb fdsjkbf  [![License](https://img.shields.io.badge/license-APACHE-2.0-blue.svg)]
+    # jimjohns big project [![License](https://img.shields.io.badge/license-BSD 2-blue.svg)]
 
     ## Description 
 
-    djf lsdjfb
+    its absolutley amazing
 
 
     ## Table of Contents (Optional)
@@ -15,17 +15,22 @@
 
 
     ## Installation
-      sldjfb dslfjbs flbdf lsdfb
+      npm i inquirer
 
     ## Usage 
-      dsfjb dfljbsdf lsdjfb dsfjlbsd flsjdfb dsfj 
+      use it if you are awesome
 
+    ##CREDITS
+      
 
     ## License
-    APACHE-2.0 [![License](https://img.shields.io.badge/license-APACHE-2.0-blue.svg)]
+    BSD 2 [![License](https://img.shields.io.badge/license-BSD 2-blue.svg)]
 
     ## Contributing
-      djfb skdfjb skdjfb
+      well thats a good question
     ## Tests
-      smeep
+      npm tests i think
+
+    #Contact Me
+      Feel free to contact me if you have any questions about this project. I can be reached by email at jimjon@jimjon.com
 

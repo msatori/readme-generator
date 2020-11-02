@@ -46,6 +46,9 @@ const generateMarkdown = data => {
     ## Tests
       ${data.tests}
 
+    #Contact Me
+      Feel free to contact me if you have any questions about this project. I can be reached by email at ${data.email}
+
 `;
 }
 

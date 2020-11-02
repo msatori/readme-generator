@@ -1,7 +1,6 @@
 //install inquirer and fs
 const inquirer = require('inquirer');
 const fs = require('fs');
-const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user
@@ -75,7 +74,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribute',
-        message: 'Please detail contributions that you invision'
+        message: 'Please detail future contributions that you would appreciate'
     },
     {
         type: 'input',
