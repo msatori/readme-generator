@@ -81,6 +81,11 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'How would someone run tests on this app?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email address'
     }
 
 ];

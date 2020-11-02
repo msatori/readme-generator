@@ -1,14 +1,12 @@
 
 
 //create conditional if user wants to create credit section then generate area
-
 const generateCredits = creditData => {
   if(!creditData) {
-    return ('');
+    return '';
   }
 
   return `
-  ##CREDITS
   ${creditData.credits}
   `
 };
@@ -16,7 +14,7 @@ const generateCredits = creditData => {
 // function to generate markdown for README
 const generateMarkdown = data => {
   return `
-    # ${data.title}
+    # ${data.title} [![License](https://img.shields.io.badge/license-${data.license}-blue.svg)]
 
     ## Description 
 
@@ -37,11 +35,11 @@ const generateMarkdown = data => {
     ## Usage 
       ${data.usage}
 
-
+    ##CREDITS
       ${generateCredits()}
 
     ## License
-    ${data.license}
+    ${data.license} [![License](https://img.shields.io.badge/license-${data.license}-blue.svg)]
 
     ## Contributing
       ${data.contribute}
