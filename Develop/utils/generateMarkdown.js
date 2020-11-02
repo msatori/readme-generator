@@ -44,15 +44,12 @@ const generateMarkdown = data => {
       ${generateCredits(data.credits)}
 
     ## License
-
-
-    ## Badges
-
-    ## Features
+    ${data.license}
 
     ## Contributing
-
+      ${data.contribute}
     ## Tests
+      ${data.tests}
 
 `;
 }

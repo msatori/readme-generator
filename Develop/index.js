@@ -40,6 +40,22 @@ const questions = [
         type: 'input',
         name: 'credits',
         message: 'Please list any contributers here'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What license would you like to apply to your project?',
+        choices: ['APACHE-2.0', 'MIT', 'BSD 2', 'BSD 3' , 'None']
+    },
+    {
+        type: 'input',
+        name: 'contribute',
+        message: 'Please detail contributions that you invision'
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'How would someone run tests on this app?'
     }
 
 ];
